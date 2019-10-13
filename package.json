@@ -1,0 +1,18 @@
+{
+  "name": "api-extractor-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@microsoft/api-extractor": "^7.5.0",
+    "@types/redux-orm": "file:@types/redux-orm",
+    "typescript": "^3.6.4"
+  },
+  "scripts": {
+    "api-extractor": "api-extractor run --local --diagnostics --verbose",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
